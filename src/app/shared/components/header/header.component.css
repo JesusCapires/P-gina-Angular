@@ -1,0 +1,32 @@
+header {
+    background-color: #861414; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 0; /* Reset de margen */
+}
+.logo img {
+    width: 100px; /* Tamaño del logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px; /* Espaciado entre elementos del menú */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto del enlace */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+.content {
+    padding: 20px;
+}
